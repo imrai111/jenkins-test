@@ -1,4 +1,4 @@
-library identifier: ' Jenkins_Pipeline_Shared_Libs@main',
+library identifier: ' Jenkins_Pipeline_Shared_Libs@master',
         retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/imrai111/jenkins-test.git'])
 
 pipeline {
